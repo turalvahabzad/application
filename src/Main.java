@@ -23,9 +23,18 @@ public class Main {
         System.out.println("Sual ingilisce sorushulsun yoxsa Azerbaycan dilinde? ");
         String chooselanguage=new Scanner(System.in).nextLine();
 
+if(chooselanguage.equalsIgnoreCase("ingilis")){
+
+}
+else if (chooselanguage.equalsIgnoreCase("Azerbaycan")){
+
+        }
+else {
+    System.out.println("Duzgun dil secimi edin");
+}
 
 
-
+}
 
 
     }
